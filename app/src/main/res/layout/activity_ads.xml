@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.AdsActivity">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="image"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:id="@+id/imgedit"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="name"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/namedit"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:hint="days"
+            android:maxLength="2"
+            android:ems="10"
+            android:id="@+id/daysedit"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:maxLength="11"
+            android:hint="phone"
+            android:ems="10"
+            android:id="@+id/phonedit"/>
+    <Button
+            android:text="Принять"
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/btn_circle"
+            android:layout_marginTop="50dp"
+
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+</LinearLayout>
